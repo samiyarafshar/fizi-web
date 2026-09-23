@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>درباره ما — فیزیوتایمز</title>
+<meta name="description" content="فیزیوتایمز چیست و محتوای آن با مشورت چه کسی تهیه می‌شود.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">فیزیوتایمز<span>مجله آموزش حرکت</span></a>
+    <button class="nav-toggle" aria-label="باز کردن منو" aria-expanded="false">☰</button>
+    <nav class="main-nav">
+      <a href="index.html">خانه</a>
+      <a href="articles.html">مقالات</a>
+      <a href="about.html" aria-current="page">درباره ما</a>
+    </nav>
+  </div>
+</header>
+
+<section style="padding-top:56px;">
+  <div class="wrap" style="max-width:720px;">
+    <h1 style="font-size:1.9rem; color:var(--primary-deep); font-weight:700; margin:0 0 20px;">درباره فیزیوتایمز</h1>
+    <p style="color:var(--ink-soft); font-size:1.05rem;">فیزیوتایمز یک مجله آموزشی است، نه سایت یک کلینیک. هدف ما این است که مفاهیم پایه فیزیوتراپی — از کمردرد گرفته تا بازتوانی بعد از آسیب — را ساده و قابل‌اعتماد توضیح بدهیم؛ چیزی بین یک مقاله پزشکی سنگین و توصیه‌های نامعتبر اینترنتی.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap" style="max-width:720px;">
+    <div class="author-box" style="max-width:none;">
+      <div class="avatar-mark" aria-hidden="true">
+        <svg width="64" height="64" viewBox="0 0 64 64"><circle cx="32" cy="22" r="12" fill="none" stroke="#1B4965" stroke-width="2.5"/><path d="M12 58 C12 40, 22 34, 32 34 C42 34, 52 40, 52 58" fill="none" stroke="#1B4965" stroke-width="2.5"/></svg>
+      </div>
+      <div>
+        <strong>[نام دایی] — فیزیوتراپیست</strong>
+        <p>سال‌ها سابقه فعالیت بالینی در حوزه درمان‌های عضلانی-اسکلتی و بازتوانی. مقالات این سایت با مشورت و بازبینی ایشان تهیه می‌شود.</p>
+        <p><a href="#" style="color:var(--accent);">صفحه اینستاگرام ›</a></p>
+      </div>
+    </div>
+
+    <ul class="credentials" style="margin-bottom:36px;">
+      <li>فارغ‌التحصیل فیزیوتراپی</li>
+      <li>فعالیت بالینی مستمر</li>
+      <li>تمرکز بر بازتوانی عضلانی-اسکلتی</li>
+    </ul>
+
+    <h2 style="font-size:1.3rem; color:var(--primary-deep); margin-bottom:14px;">چرا این سایت را ساختیم؟</h2>
+    <p style="color:var(--ink); margin-bottom:20px;">اطلاعات فارسی درباره فیزیوتراپی روی اینترنت یا خیلی کلی‌ست یا از منابع نامشخص کپی شده. فیزیوتایمز تلاش می‌کند این خلأ را با محتوای ساده اما درست پر کند — بدون فروش دوره یا محصول خاصی.</p>
+
+    <h2 style="font-size:1.3rem; color:var(--primary-deep); margin-bottom:14px;">یک نکته مهم</h2>
+    <p style="color:var(--ink);">مطالب این سایت جنبه آموزشی دارد و جایگزین معاینه و تشخیص حضوری نیست. برای هر درد یا آسیب مشخص، حتماً به یک فیزیوتراپیست یا پزشک مراجعه کنید.</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <div class="logo" style="color:#fff">فیزیوتایمز</div>
+      <p style="max-width:38ch; color:#8FA9B6; font-size:0.9rem; margin-top:10px;">مجله‌ای آموزشی درباره فیزیوتراپی، حرکت درست و پیشگیری از درد.</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html">خانه</a>
+      <a href="articles.html">مقالات</a>
+      <a href="about.html">درباره ما</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© ۱۴۰۴ فیزیوتایمز — تمام حقوق محفوظ است.</span>
+    <span>محتوای این سایت جایگزین ویزیت و تشخیص پزشکی نیست.</span>
+  </div>
+</footer>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.main-nav');
+  toggle.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open);
+  });
+</script>
+</body>
+</html>
